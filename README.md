@@ -3,6 +3,14 @@
 ## Project Overview
 This project predicts whether a customer will respond to a marketing campaign using machine learning.
 
+The project includes:
+- Data preprocessing
+- Feature engineering
+- Feature selection (MI, RFE, PCA)
+- Model training (Logistic Regression, Random Forest)
+- Clustering (KMeans, Hierarchical)
+- Model evaluation (F1 Score, AUC, ROC)
+
 ---
 
 ## Requirements
@@ -10,7 +18,7 @@ This project predicts whether a customer will respond to a marketing campaign us
 - Python 3.x
 - Google Colab
 
-Libraries:
+Libraries used:
 - pandas
 - numpy
 - scikit-learn
@@ -21,18 +29,17 @@ Libraries:
 
 ## How to Run the Project
 
-### Step 1: Open Notebook
-- Open the repository in GitHub
-- Click on the notebook file:
-  customer_response_prediction.ipynb
-- Click "Open in Colab"
+1. Open the notebook file in Google Colab.
+
+2. Upload the dataset file `marketing_campaign.csv` when prompted.
+
+3. Run all cells in the notebook.
 
 ---
 
-### Step 2: Upload Dataset
+## Output
 
-Run this cell:
-
-```python
-from google.colab import files
-files.upload()
+The project will generate:
+- Model performance metrics (Accuracy, F1 Score, AUC)
+- Feature selection comparison
+- ROC
