@@ -43,3 +43,14 @@ The project will generate:
 - Model performance metrics (Accuracy, F1 Score, AUC)
 - Feature selection comparison
 - ROC
+
+---
+## Optional: Running Locally
+
+If you want to run this project on your local machine:
+
+1. Install Python 3.x
+2. Install required libraries using: pip install -r requirements.txt
+3. Open the notebook in Jupyter or any Python IDE
+4. Run all cells
+   
