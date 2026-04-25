@@ -26,6 +26,14 @@ Libraries used:
 - seaborn
 
 ---
+## Dataset
+
+The dataset used is:
+marketing_campaign.csv
+
+It must be uploaded manually when running the notebook in Google Colab.
+
+---
 
 ## How to Run the Project
 
@@ -43,6 +51,8 @@ The project will generate:
 - Model performance metrics (Accuracy, F1 Score, AUC)
 - Feature selection comparison
 - ROC
+- Confusion matrix
+- Cross-validation results
 
 ---
 ## Optional: Running Locally
@@ -53,4 +63,10 @@ If you want to run this project on your local machine:
 2. Install required libraries using: pip install -r requirements.txt
 3. Open the notebook in Jupyter or any Python IDE
 4. Run all cells
+
+---
+## Authors
+
+- Srivani Vadlamannati
+- Gayathri Gandham
    
